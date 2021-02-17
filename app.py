@@ -8,6 +8,7 @@ planet = st.sidebar.selectbox('Select your favourite planet: ', ('Venus', 'Earth
 epsilon = 1
 sigma = 5.67E-8  
 
+st.title('Hoi mam')
 
 if planet == 'Venus':
     st.sidebar.image('venus.jpg', width=200)
@@ -25,8 +26,8 @@ if planet == 'Earth':
     real_T = 295
 
 if planet == 'Mars':
-    st.image('mars.jpg', width=500)
-    st.write('This is a small introduction text about mars, Elons baby!')
+    st.sidebar.image('mars.jpg', width=200)
+    st.sidebar.write('This is a small introduction text about mars, Elons baby!')
     L = 600          # Watts/m2
     albedo = 0.15
     real_T = 240
