@@ -22,12 +22,14 @@ if planet == 'Earth':
     st.sidebar.write('This is a small introduction text about earth, our home')
     L = 1350          # Watts/m2
     albedo = 0.3
+    real_T = 295
 
 if planet == 'Mars':
     st.image('mars.jpg', width=500)
     st.write('This is a small introduction text about mars, Elons baby!')
     L = 600          # Watts/m2
     albedo = 0.15
+    real_T = 240
 
 # do calculations
 T = (L*(1-albedo)/(4*epsilon*sigma))**(1/4)
