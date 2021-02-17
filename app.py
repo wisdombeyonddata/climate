@@ -8,7 +8,7 @@ planet = st.sidebar.selectbox('Select your favourite planet: ', ('Venus', 'Earth
 epsilon = 1
 sigma = 5.67E-8  
 
-st.title('Hoi mam')
+st.title('Hoi mam! :D')
 
 if planet == 'Venus':
     st.sidebar.image('venus.jpg', width=200)
